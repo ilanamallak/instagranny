@@ -14,9 +14,9 @@ export default function HomeScreen() {
           pic={require('../assets/images/post.jpeg')}
         />
         <Post
-          name="Marisa Mallak"
-          profilePic={require('../assets/images/profile-pic.jpeg')}
-          pic={require('../assets/images/post.jpeg')}
+          name="Henrique Rubens"
+          profilePic={require('../assets/images/profile-pic2.jpg')}
+          pic={require('../assets/images/post2.jpg')}
         />
       </ScrollView>
     </View>

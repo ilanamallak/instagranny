@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Platform, StatusBar, StyleSheet, View } from 'react-native';
+import { Platform, StatusBar, StyleSheet, View, Image } from 'react-native';
 import { SplashScreen } from 'expo';
 import * as Font from 'expo-font';
 import { Ionicons } from '@expo/vector-icons';
@@ -54,7 +54,7 @@ export default function App(props) {
             <Stack.Screen
               name="Root"
               options={{
-                headerTitle: () => <img style={{width: '150px'}} src={require('./assets/images/Instagranny.svg')} />,
+                headerTitle: () => <Image style={{width: 150, height: 45}} source={require('./assets/images/Instagranny.png')} />,
                 headerTitleAlign: 'center'
               }}
               component={BottomTabNavigator}
